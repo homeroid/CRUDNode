@@ -25,8 +25,8 @@
 
 ## CURD
 ### Agregar
-![alt text]
+![alt text](https://github.com/homeroid/CRUDNode/blob/master/gifs/create.gif?raw=true)
 ## Editar
-![alt text]
+![alt text](https://github.com/homeroid/CRUDNode/blob/master/gifs/edit.gif?raw=true)
 ## Borrar
-![alt text]
+![alt text](https://github.com/homeroid/CRUDNode/blob/master/gifs/delete.gif?raw=true)
