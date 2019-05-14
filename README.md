@@ -18,7 +18,7 @@
 
 ## Tecnologias mas usadas con NodeJs
 * Para el manejo de librerias se usa npm
-* Para la base de datos en aplicaciones tanto pequeñas como complejas se puede usar mongoDB
+* Para la base de datos existen diversas formas de implementarlas pero la mas comun es usar mongoDB
 * El IDE mas popular para el desarollo en JavaScript son :
  * Sublime Text
  * Visual Studio Code
