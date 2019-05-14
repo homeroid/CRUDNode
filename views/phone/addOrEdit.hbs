@@ -1,0 +1,42 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/phone" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{phone._id}}">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" name="name" placeholder="Name" value="{{phone.name}}">
+        <div class="text-danger">
+            {{phone.nameError}}</div>
+    </div>
+    <div class="form-group ">
+            <label>Last Name</label>
+            <input type="text" class="form-control" name="lastName" placeholder="Mobile" value="{{phone.lastName}}">
+        </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" class="form-control" name="email" placeholder="Email" value="{{phone.email}}">
+        <div class="text-danger">
+            {{phone.emailError}}</div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Number</label>
+            <input type="text" class="form-control" name="number" placeholder="Mobile" value="{{phone.number}}">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Phone type</label>
+            <input type= "text" name="numType" list="typesPho" value="{{phone.numType}}">
+            <datalist id="typesPho">
+                <option value="Home">Home</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+            </datalist>    
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button>
+        <a class="btn btn-secondary" href="/phone/list"><i class="fa fa-list-alt"></i> View All</a>
+    </div>
+
+    
+</form>
